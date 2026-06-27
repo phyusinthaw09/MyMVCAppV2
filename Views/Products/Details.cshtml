@@ -38,6 +38,13 @@
             @Html.DisplayFor(model => model.StockQuantity)
         </dd>
     </dl>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Specification)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Specification)
+    </dd>
+    </dl>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.ProductId">Edit</a> |
