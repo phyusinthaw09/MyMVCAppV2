@@ -21,5 +21,7 @@ namespace MyMVCAppV2.Models
         public int StockQuantity { get; set; }
 
         public string? Specification { get; set; } = "Premium Edition";
+
+        public string? Description { get; set; }
     }
 }
